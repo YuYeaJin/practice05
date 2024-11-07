@@ -5,7 +5,8 @@ public class Base {
 	
     public void service(String state) {
     	
-    	
+    	String service = base;
+   
     }
     	
     

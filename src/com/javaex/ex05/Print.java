@@ -4,8 +4,6 @@ public class Print {
     
     public void printer(int val){
         System.out.println(val);
+        
     }
-
-   
-    
 }

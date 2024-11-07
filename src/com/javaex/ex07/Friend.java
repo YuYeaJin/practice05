@@ -6,10 +6,29 @@ public class Friend {
     private String hp;
     private String school;
 
+    public String getName() {
+    	return name;
+    }
     
-    // getter/setter 작성
+    public String getHp() {
+    	return hp;
+    }
     
+    public String getSchool() {
+    	return school;
+    }
     
+    public void setName() {
+    	this.name = name;
+    }
+    
+    public void setHp() {
+    	this.hp = hp;
+    }
+    
+    public void setSchool() {
+    	this.school = school;
+    }
     
     public void showInfo(){
         System.out.println("이름:"+name+"  핸드폰:"+hp+"  학교:"+school);
