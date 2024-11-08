@@ -6,27 +6,38 @@ public class Friend {
     private String hp;
     private String school;
 
+    // 생성자
+    public Friend(String name, String hp, String school) {
+    	this.name = name;
+    	this.hp = hp;
+    	this.school =school;
+    }
+    
+    
     public String getName() {
     	return name;
     }
+    
+    public void setName(String name) {
+    	this.name = name;
+    }
+    
     
     public String getHp() {
     	return hp;
     }
     
+    public void setHp(String hp) {
+    	this.hp = hp;
+    }
+    
+    
     public String getSchool() {
     	return school;
     }
     
-    public void setName() {
-    	this.name = name;
-    }
-    
-    public void setHp() {
-    	this.hp = hp;
-    }
-    
-    public void setSchool() {
+
+    public void setSchool(String school) {
     	this.school = school;
     }
     

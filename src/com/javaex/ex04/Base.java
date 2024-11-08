@@ -5,7 +5,10 @@ public class Base {
 	
     public void service(String state) {
     	
-    	String service = base;
+    	int i = 0;
+    	for(int i = 0; i < 1 ; ++i) {
+    		day()
+    	}
    
     }
     	
